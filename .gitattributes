@@ -1,0 +1,19 @@
+# Normalize line endings. These scripts run on Linux / HPC clusters, so shell
+# and Python files are checked out with LF in the working tree.
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.pdb  text eol=lf
+
+# Binary / large artifacts (also excluded by .gitignore)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.tar.gz binary
+*.xtc  binary
+*.tpr  binary
+*.edr  binary
+*.cpt  binary

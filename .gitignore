@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.out
+*.err
+plots/
+version_audit_*/
+*.tar.gz
+*.xtc
+*.tpr
+*.edr
+*.cpt
